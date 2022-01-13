@@ -601,7 +601,7 @@ class InnerDrawerState extends State<InnerDrawer>
             excludeFromSemantics: true,
             child: RepaintBoundary(
               child: Stack(
-                children: <Widget?>[
+                children: <Widget>[
                   ///Gradient
                   Container(
                     width: _controller.value == 0 ||
