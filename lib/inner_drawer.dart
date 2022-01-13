@@ -581,8 +581,8 @@ class InnerDrawerState extends State<InnerDrawer>
     //final double offset = 1 - _offset * 1;
     final double wFactor = (_controller.value * (1 - offset)) + offset;
 
-    Widget? _leftChildWidget = _trigger(AlignmentDirectional.centerStart, _leftChild),
-    Widget? _rightChildWidget = _trigger(AlignmentDirectional.centerEnd, _rightChild),
+    Widget? _leftChildWidget = _trigger(AlignmentDirectional.centerStart, _leftChild);
+    Widget? _rightChildWidget = _trigger(AlignmentDirectional.centerEnd, _rightChild);
     return Container(
       decoration: widget.backgroundDecoration ??
           BoxDecoration(
